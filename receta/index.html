@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>receta</title>
+
+    <!-- css externo-->
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="imagenes/favicon.png">
+
+    <!-- <style>
+    p {font-size:20px}
+</style> -->
+
+</head>
+
+<body>
+    <div class="sticky">
+        <div id="menu">
+
+            <a class="active" href="#"> Inicio  </a>
+            <a href="#ingredientes">Ingredientes</a>
+            <a href="#paso">Instrucciones</a>
+
+        </div>
+    </div>
+
+    <div class="contenedor">
+
+        <div class="tituloimagen">
+
+            <!--Encabezado-titulo-->
+            <!-- css en línea -->
+            <!-- <img src="https://www.mycolombianrecipes.com/wp-content/uploads/2013/03/arepa-de-Boyaca.jpg" alt="arepaboyaense_ppal"> -->
+            <h1 style="color: rgb(70, 30, 3); font-size: 40px;">Receta Arepa Boyacense</h1>
+
+            <div class="imagen">
+
+                <img src="imagenes/arepa_boyacense_ppal.jpg" alt="arepa_boyacense_ppal">
+
+            </div>
+
+        </div>
+
+        <!-- selector descendente -->
+        <div>
+            <br>
+            <br>
+            <p id="parrafo1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quia id voluptatem
+            </p>
+        </div>
+
+        <!-- selector de niños -->
+
+        <!-- <div>
+    <p>parrafo1</p>
+    <p>parrafo2</p>
+    <div><p>parrafo3</p></div>
+    <p>parrafo4</p>
+</div>
+    <p>parrafo5</p>
+    <p>parrafo6</p> -->
+
+        <!-- selede hermanos adyacentes slecciona todos los elementos 
+    que son hermanos adyacentes de un elemento específico, debe tener el mismo padre y adyacente, 
+    que significa el siguiente elemento inmediato -->
+
+        <!-- <div>
+    <p>parrafo1</p>
+    <p>parrafo2</p>
+</div>
+     <p>parrafo3</p>
+     <p>parrafo4</p> -->
+
+        <!-- selector general de hermanos selecciona todos lo elementos 
+    que son hermanos de un elemento específico -->
+
+        <!-- <p>parrafo1</p>
+<div>
+    <p>parrafo2</p>
+</div>
+<p>parrafo3</p>
+<q>mas codigo</q>
+<p>parrafo4</p> -->
+
+        <div class="seccion2">
+
+            <p>Las <b>arepas</b> son una parte muy importante de la <em>cocina colombiana</em>, como las tortillas son
+                para la
+                <del>cocina mexicana</del> .
+                En algunas partes de <i>Colombia</i>, como en el departamento de <strong>Antioquia</strong> donde nací y
+                crecí,
+                servimos las arepas con
+                casi todas las <mark>comidas</mark>. Yo las puedo comer mañana, tarde y noche con una gran variedad de
+                ingredientes.</p>
+
+            <img src="imagenes/mapa-campesina.png" alt="">
+
+        </div>
+
+        <!-- </video> <iframe width="720px" height="480px" src="https://www.youtube.com/embed/BX_lPEiKr3I" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+        <!-- <h2>historia</h2>
+    <h3>Ingredientes</h3>
+    <h4>El asador</h4>
+    <h5>Preparación</h5>
+    <h6>Acompañar</h6> -->
+
+        <div id="ingredientes" class="ingredientes">
+
+            <h2>Ingredientes</h2>
+
+            <!-- lista descriptiva -->
+            <dl>
+                <b><i>(6 arepas)</i></b>
+                <dt>Descripción</dt>
+                <dd>Las mejores arepas del altiplano</dd>
+            </dl>
+
+
+            <p>
+
+                Para la masa:
+                ------------------------------
+
+                <span>2 tazas</span> de harina de maíz amarilla pre cocida (masarepa)
+
+                <span>5 cucharadas</span> de harina de trigo
+
+                <span>1 + 1/2 tazas</span> de agua caliente
+
+                <span>1/2 taza</span> de leche
+
+                <span>1/4 cucharadita</span> de sal
+
+                <span>2 cucharadas</span> de azúcar
+
+                <span>3 cucharadas</span> de mantequilla suave, un poco más para cocinar
+
+
+                Para el relleno:
+                -------------------------------
+
+                <span>2 tazas</span> de queso fresco o quesito colombiano
+
+            </p>
+
+
+            <video src="video/video_arepa_boyacense.mp4" controls width="720px" height="480px">
+                <source src="video/video_arepa_boyacense.ogg">
+
+
+        </div>
+ 
+        <h2>Paso a paso</h2>
+
+        <div class="pasoapaso" id="paso">
+            <ol>
+                <li>
+
+                    <h3>Preparar la masa</h3>
+
+                    <ul>
+                        <li>En un recipiente mezcla la harina precocida, la harina de trigo, el agua, la leche, la sal,
+                            el azúcar y la mantequilla (previamente derretida) Amasa la mezcla hasta que todos los
+                            ingredientes se incorporen.</li>
+                        <li>Después hacer bolas y con un una tapa, aplanar la masa hasta que quede del grosor que
+                            desees.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>Armado y cocción</h3>
+
+                    <ul>
+                        <li>Colocar en uno de los círculo una porción generosa de queso y poner otro de los círculos
+                            encima, posteriormente con los dedos sellar los bordes alrededor del queso, lo que evitará
+                            que el queso se derrame.</li>
+                        <li>En un sartén poner un poco de mantequilla y ponerlas asar, hasta que se tornen doradas.</li>
+                    </ul>
+
+                </li>
+            </ol>
+        </div>
+
+        <br>
+
+        <table id="preparacion" class="indicaciones">
+
+            <caption>Indicaciones</caption>
+            <!-- título tabla -->
+
+            <tr>
+                <td>
+                    <span>1.</span> En un recipiente mezcla la harina precocida, la harina de trigo, el agua, la leche,
+                    la sal, el azúcar y
+                    la mantequilla (previamente derretida) Amasa la mezcla hasta que todos los ingredientes se
+                    incorporen.
+                </td>
+                <td>
+                    <span>2.</span> Después hacer bolas y con un una tapa, aplanar la masa hasta que quede del grosor
+                    que desees.
+                </td>
+                <td>
+                    <span>3.</span> Colocar en uno de los círculo una porción generosa de queso y poner otro de los
+                    círculos encima,
+                    posteriormente con los dedos sellar los bordes alrededor del queso, lo que evitará que el queso se
+                    derrame.
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <span>4.</span> En un sartén poner un poco de mantequilla y ponerlas asar, hasta que se tornen
+                    doradas.
+                </td>
+                <td>
+                    <span>5.</span> Acompañar de una bebida caliente tradicional, como aguadepanela o chocolate
+                </td>
+
+                <td>
+                    <span>6.</span> Lo más usual es servirlas en desayunos junto a huevos, "calentaos", changua, etc.
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <span>7.</span> En un recipiente mezcla la harina precocida, la harina de trigo, el agua, la leche,
+                    la sal, el azúcar y
+                    la mantequilla (previamente derretida) Amasa la mezcla hasta que todos los ingredientes se
+                    incorporen.
+                </td>
+                <td>
+                    <span>8.</span> Después hacer bolas y con un una tapa, aplanar la masa hasta que quede del grosor
+                    que desees.
+                </td>
+                <td>
+                    <span>9.</span> Colocar en uno de los círculo una porción generosa de queso y poner otro de los
+                    círculos encima,
+                    posteriormente con los dedos sellar los bordes alrededor del queso, lo que evitará que el queso se
+                    derrame.
+                </td>
+            </tr>
+
+        </table>
+
+        <!-- rowspan indica el número de filas que ocupará la celda -->
+        <table>
+            <tr>
+                <td rowspan="3">Hardware</td>
+                <td>mouse</td>
+                <td>teclado</td>
+            </tr>
+            <tr>
+                <td>cpu</td>
+                <td>cámara</td>
+            </tr>
+            <tr>
+                <td>impresora</td>
+                <td>micrófono</td>
+            </tr>
+        </table>
+
+        <!-- colspan: indica número de colunas que ocupará la celda. Por defecto ocupa una sola columna -->
+        <table>
+            <tr>
+                <th colspan="2">videojuegos</th>
+                <th colspan="2">series</th>
+            </tr>
+            <tr>
+                <td>Bioshock</td>
+                <td>silent hill</td>
+                <td>happy</td>
+                <td>rick and morty</td>
+            </tr>
+            <tr>
+                <td>the king of figthers</td>
+                <td>the last of us</td>
+                <td>dr who</td>
+                <td>black mirror</td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+    <!-- <audio src="audio/audio_arepa_boyacense.mp3"controls></audio>  -->
+
+    <p class="fixed">
+        Ir a la siguiente <a href="otrapagina.html"> <span>página</span> <a></a>
+    </p>
+
+</body>
+
+</html>

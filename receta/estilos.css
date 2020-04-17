@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+html{
+    font-size: 12;
+}
+
+body{
+    text-align: center;
+    /* background-color: rgba(250, 235, 215, 0.76); */
+    background-image: url(imagenes/background\ receta.png); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: bottom; 
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    font-size: 16px; 
+    /* em=tamaño fuente */
+}
+
+div#menu{
+    background-color: rgb(105, 56, 47);
+    width: 60%;
+    max-width: 56.25em;
+    font-size: 1.56em;
+    /* margin: 20px 14px 28px 38px; en el orden de las manecillas el reloj */
+    margin:0 auto;
+    padding: 45px 30px;
+}
+
+div#menu a{
+    text-decoration: none; 
+    /* quita gion bajo de los enlaces */
+    padding: 25px;
+}
+
+div#menu a:link{
+    color: rgb(255, 255, 255);
+}
+/* visite el link */
+div#menu a:visited{
+    color:rgb(207, 151, 119);
+}
+/* pasar el mouse */
+div#menu a:hover{
+    text-decoration:underline;
+}
+/* seleccionar link */
+div#menu a:active{
+    color: rgb(255, 233, 106);
+}
+
+h1 {
+    text-align: center;
+     background-color: rgba(252, 227, 197, 0.308);}
+
+h2 {
+    padding: 25px 35px 15px 10px;
+    color: rgb(92, 37, 37);
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    text-align: left;
+
+}
+
+h3 {
+
+    padding: 15px 20px 15px 0px;
+    color: rgb(124, 65, 16);
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 18;
+
+}
+    
+.contenedor{
+    background: rgba(255, 246, 197, 0.5);
+    width: 60%;
+    max-width: 56.25em;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedor h1{
+    padding: 70px 35px 70px 10px;
+    color: rgb(219, 74, 58);
+    font-size: 32px;
+    font-weight: normal; /* negrita */
+
+}
+
+.tituloimagen{
+    display: inline-flex;
+    width: 100%;
+}
+
+.imagen{
+    width: 80%;
+}
+
+.imagen img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+div.seccion2{
+    width: 100%;
+    background-color: (rgb 251, 87, 46, 0.281);
+    position: relative;
+    top: 45px;
+    font-size: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    /* ajusta el relleno(padding) y el borde al tamaño del contenido */
+    /* nos permite incluir el relleno y el borde en el ancho y alto total de un elemento */
+}
+
+div.seccion2 img{
+    width: 200px;
+    position: absolute;
+    bottom: -170px;
+    right: 35px;
+}
+
+p.fixed{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+    width: 150px;
+    background-color: rgb(54, 148, 64);
+
+}
+
+.ingredientes{
+    height: 400px;
+    margin-top: 100px;
+    overflow: auto;
+}
+
+.ingredientes h2{
+    padding: 0px 35px 50px 10px;
+    color: rgb(92, 37, 37);
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    text-align: left;
+}
+.ingredientes p{
+    font-size: 20px;
+    white-space: pre-wrap;
+/* se usa para determinar la forma en que el navegador
+tomará los espacios en blanco y los saltos de línea */
+
+}
+.ingredientes span{
+    color: rgb(4, 71, 4);
+    font-weight: 600;
+}
+
+.pasoapaso {
+
+    font-size: 20px;
+    white-space: normal ;
+    padding: 0px 0px 30px 0px;
+}
+
+.indicaciones span{
+    color: rgb(70, 18, 18);
+    font-weight: 600;
+}
+
+.indicaciones caption, tr, td {
+    border: 2px solid rgb(100, 45, 45);
+    padding: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 350px;
+    font-family: sans-serif;
+    background-color: rgb(252, 216, 164);
+}
+
+table span {
+    background-color: rgb(255, 244, 158);
+    border-radius: 70px 30px;
+}
+
+caption {
+    text-align: center;
+    color: rgb(180, 75, 63);
+    font-size: 30px;
+}
+
+td{
+    vertical-align: top;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
